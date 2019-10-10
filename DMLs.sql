@@ -11,3 +11,6 @@ WHERE IdAluno = 2;
 
 -- Excluir dado
 DELETE FROM materia WHERE IdMateria = 2;
+
+-- Exclui todos os dados de uma tabela
+TRUNCATE TABLE materia;
